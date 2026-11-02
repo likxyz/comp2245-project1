@@ -96,3 +96,18 @@ h3 {
    color: #2F855A;
    text-decoration: underline;
 }
+
+/*HERO SETTINGS*/
+.hero {
+   background-color: #F0FFF4;
+}
+.hero .container { /* Tweaking the grid, mainly fr being fraction, using fraction of the space and dividing equally in half*/
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+   gap: 48px;
+   align-items: center;
+}
+.hero-text p {
+   font-size: 20px;
+   margin-bottom: 24px;
+}
