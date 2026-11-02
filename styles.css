@@ -127,3 +127,55 @@ h3 {
    padding: 32px;
    border-radius: 12px;
 }
+
+/*VISIT THE MARKET*/
+.visit {
+   background-color: #F0FFF4;
+}
+
+.visit .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 48px;
+   align-items: center;
+}
+
+.hours {
+   width: 100%;
+   border-collapse: collapse;
+}
+.hours caption {
+   text-align: left;
+   font-weight: bold;
+   padding-bottom: 10px;
+}
+
+.hours th, /*COMMA lets us apply the same styling to multiple seletors*/
+.hours td {
+   text-align:left;
+   padding: 10px 12px;
+   border-bottom: 1px solid #C6F6D5;
+}
+.hours th {
+   background-color: #2F855A;
+   color: #FFFFFF;
+}
+
+.testimonial {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-left: 6px solid #2F855A;
+    border-radius: 0 12px 12px 0;
+    margin: 0;
+}
+
+.testimonial p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.testimonial footer {
+    color: #4A5568;
+    font-size: 16px;
+    font-style: normal;
+}
