@@ -69,3 +69,5 @@ if (hasErrors) {
 formMessage.textContent = `Thank you, ${name}! You're on the mailing list.`;
 formMessage.classList.add("success");
 
+/*nothing but pain exists in app.js*/
+
