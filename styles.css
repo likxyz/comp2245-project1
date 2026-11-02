@@ -190,3 +190,42 @@ h3 {
     max-width: 520px;
     margin: 0 auto;
 }
+
+#signup-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#signup-form input,
+#signup-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #A0AEC0;
+    border-radius: 8px;
+    font: inherit;
+}
+#signup-form .btn {
+    width: 100%;
+}
+
+/*error handling */
+.error {
+    color: #C53030;
+    font-size: 15px;
+    min-height: 24px;
+}
+
+#signup-form [aria-invalid="true"] {
+    border: 2px solid #C53030;
+}
+
+#form-message.success {
+    background-color: #C6F6D5;
+    color: #22543D;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 520px;
+    margin: 0 auto;
+}
